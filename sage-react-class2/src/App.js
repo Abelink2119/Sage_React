@@ -22,7 +22,11 @@ function App(){
         <button onClick={()=>setCounter(counter+1)}>Add</button>
         <h1>{counter}</h1>
          <button onCilick={()=>setCounter(counter-1)}>Subtract</button>
+         <br/>
+         <br/>  
          <LoginAndLogout/>
+         <br/>
+         <br/>  
          <ReactList/>
        
   </div>
